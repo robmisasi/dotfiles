@@ -11,7 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'vim-syntastic/syntastic'
-Plugin 'file:///Users/robmisasi/.vim/bundle/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Quramy/vim-js-pretty-template'
 Plugin 'Shougo/vimproc.vim'
