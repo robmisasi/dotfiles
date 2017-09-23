@@ -5,6 +5,6 @@ fi
 
 ##  clone vim repos
 # Vundle
-git clone https://github.com/VundleVim/Vundle.vim.git/ ~/.vim/bundle/Vundle.vimi
+git clone https://github.com/VundleVim/Vundle.vim.git/ ~/.vim/bundle/Vundle.vim
 
 # Install vundle plugins int vim with :PluginInstall
