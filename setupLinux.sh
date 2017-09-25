@@ -1,6 +1,8 @@
 # Install useful apps
 if  hash vim 2> /dev/null; then
- sudo apt install vim
+ sudo apt-get install vim
+ mkdir ~/.vim/backups
+ mkdir ~/.vim/swaps
 fi
 
 ##  clone vim repos
