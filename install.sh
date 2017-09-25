@@ -1,8 +1,8 @@
 # Install dotfiles to home directory
 # if params are given, install those
-if $1; then
-  while ! $1; do
-    cp $1 ~
+if ! [-z $1]; then
+  while ![ -z "$1"]; do
+    cp "$1" ~
     shift 1
   done
   exit
