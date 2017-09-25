@@ -1,5 +1,5 @@
 # Install useful apps
-if i  hash vim 2> /dev/null; then
+if  hash vim 2> /dev/null; then
  sudo apt install vim
 fi
 
