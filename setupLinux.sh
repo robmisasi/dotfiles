@@ -1,5 +1,5 @@
 # Install useful apps
-if  command -v vim > /dev/null 2>&1; then
+if dpkg -s vim; then
   echo "Installing vim..."
   sudo apt-get install vim
   echo "Making directories..."
