@@ -6,4 +6,4 @@ My collection of bash and vim dotfiles and their install scripts collected from 
 The dotfiles can be installed by executing `source install.sh` or `./install.sh`. Update can be executed the same way to remove the current files that install replaces (redundant). setupLinux.sh installs vim and Vundle.
 
 ### install.sh
-Provifing arguments to install.sh will attempt to install only the fikes describes by those arguments
+Invoke `install.sh -a` to install all dotfiles, or list them individually by name to install a subset of them
